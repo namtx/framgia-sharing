@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+button {
+  padding: 10px;
+  font-size: 2em;
+  margin-left: 3em;
+}
+
+#sync-btn {
+  color: white;
+  background-color: orange;
+  border: 2px solid orange;
+
+}
+
+#async-btn:hover{
+  background-color: white;
+  color: orange;
+}
